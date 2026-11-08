@@ -1,0 +1,40 @@
+# 第三方插件 —— 只引用，不分发
+ryugi/
+node_modules/
+.cache/
+
+# 凭据与密钥（任何形式都不入库）
+*.key
+*.pem
+*.p12
+*secret*
+service.json
+auth.json
+
+# 本地运行时产物
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+drafts.sqlite*
+opencode-notifier-analytics.db*
+
+# 配置备份（历史备份里含旧密钥，绝不能提交）
+*.bak
+*.bak-*
+.bak-*/
+opencode.json.models-archive
+
+# OpenCode 运行时
+log/
+logs/
+.ryugi/
+.opencode/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

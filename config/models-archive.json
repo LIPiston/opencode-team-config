@@ -1,0 +1,29 @@
+{
+  "_note": "旧模型定义归档（2026-11-07 清理备份前抽取）。仅 record 用，不要直接合并进 opencode.json；如需恢复某个模型，把它的块复制到 providers.lipiston.models 并补 capabilities.reasoning.effort。",
+  "models": {
+    "gpt-6-luna": {
+      "name": "GPT-6 Luna"
+    },
+    "glm-5.3-flash": {
+      "name": "GLM-5.3 Flash"
+    },
+    "qwen-flashnext": {
+      "name": "Qwen FlashNext"
+    },
+    "LIP-grok": {
+      "name": "LIP Grok"
+    },
+    "LIP-deepseek-v4-flash": {
+      "name": "LIP DeepSeek V4 Flash"
+    },
+    "step-5-preview": {
+      "name": "Step 5 Preview"
+    },
+    "openrouter/free": {
+      "name": "OpenRouter Free"
+    },
+    "FIM:deepseek-v4.1-flash": {
+      "name": "FIM DeepSeek V4.1 Flash"
+    }
+  }
+}
